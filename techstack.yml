@@ -1,0 +1,781 @@
+repo_name: shoval-org-one/gradle-node-plugin-build-gradle
+report_id: 90ac0445ee93233d52dc87da42d231bb
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T13:04:37+00:00'
+requested_by: deepy
+provider: github
+branch: master
+detected_tools_count: 57
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 4.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-09-07 07:08:43.000000000 Z
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/build.gradle
+  detection_source: examples/vertx-react/webapp/build.gradle
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/package.json
+  detection_source: examples/vertx-react/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.6.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-05-06 18:17:52.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: src/test/resources/fixtures/javascript-project/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-04-06 14:09:02.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/src/test/resources/fixtures/javascript-project/package.json
+  detection_source: src/test/resources/fixtures/javascript-project/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2019-09-07 08:18:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/.github/workflows/build-examples.yml
+  detection_source: ".github/workflows/build-examples.yml"
+  last_updated_by: Alex Nordlund
+  last_updated_on: 2022-01-03 12:10:59.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/simple-node/build.gradle
+  detection_source: examples/simple-node/build.gradle
+  last_updated_by: Alex Nordlund
+  last_updated_on: 2021-05-07 08:14:40.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.8.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 8.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/src/test/resources/fixtures/javascript-project/package.json
+  detection_source: src/test/resources/fixtures/javascript-project/package.json
+  last_updated_by: Alex Nordlund
+  last_updated_on: 2020-10-19 17:03:24.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-09-07 07:08:43.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-05-06 18:17:52.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/simple-node/yarn/yarn.lock
+  detection_source: examples/simple-node/yarn/yarn.lock
+  last_updated_by: Sten Roger Sandvik
+  last_updated_on: 2017-03-27 13:08:55.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/src/test/resources/fixtures/npm-present/package.json
+  detection_source: src/test/resources/fixtures/npm-present/package.json
+  last_updated_by: Javier Campanini
+  last_updated_on: 2016-03-30 19:42:27.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/build.gradle
+  detection_source: examples/vertx-react/webapp/build.gradle
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-05-07 07:07:34.000000000 Z
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/simple-node/npm/package-lock.json
+  detection_source: examples/simple-node/npm/package-lock.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-04-06 15:21:37.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 8.5.0
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/src/test/resources/fixtures/npm-present/package-lock.json
+  detection_source: src/test/resources/fixtures/npm-present/package.json
+  last_updated_by: Javier Campanini
+  last_updated_on: 2016-03-30 19:42:27.000000000 Z
+  vulnerabilities:
+  - name: Packing does not respect root-level ignore files in workspaces
+    cve_id: CVE-2022-29244
+    cve_url: https://github.com/advisories/GHSA-hj9c-8jmm-8c52
+    detected_date: Jun 3
+    severity: high
+    first_patched: 8.11.0
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  version: 0.1101.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 11.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/language-service"
+  description: Angular - language services
+  package_url: https://www.npmjs.com/@angular/language-service
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 11.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/src/test/resources/fixtures/javascript-project/package.json
+  detection_source: src/test/resources/fixtures/javascript-project/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-04-06 14:09:02.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: src/test/resources/fixtures/javascript-project/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-04-06 14:09:02.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/package.json
+  detection_source: examples/vertx-react/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/package.json
+  detection_source: examples/vertx-react/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 3.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@types/jasminewd2"
+  description: TypeScript definitions for jasminewd2
+  package_url: https://www.npmjs.com/@types/jasminewd2
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 12.12.55
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: codelyzer
+  description: Linting for Angular applications
+  package_url: https://www.npmjs.com/codelyzer
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-09-07 07:08:43.000000000 Z
+- name: figlet
+  description: Creates ASCII Art from text
+  package_url: https://www.npmjs.com/figlet
+  version: 1.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16424/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/simple-node/npm/package-lock.json
+  detection_source: examples/simple-node/npm/package.json
+  last_updated_by: Sten Roger Sandvik
+  last_updated_on: 2017-03-23 21:05:24.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: jasmine-spec-reporter
+  description: Spec reporter for jasmine behavior-driven development framework
+  package_url: https://www.npmjs.com/jasmine-spec-reporter
+  version: 5.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: karma-coverage-istanbul-reporter
+  description: A karma reporter that uses the latest istanbul 1.x APIs
+  package_url: https://www.npmjs.com/karma-coverage-istanbul-reporter
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: karma-jasmine-html-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-jasmine-html-reporter
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/package.json
+  detection_source: examples/vertx-react/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/vertx-react/webapp/package.json
+  detection_source: examples/vertx-react/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 08:53:57.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2020-09-07 07:08:43.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.1.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/shoval-org-one/gradle-node-plugin-build-gradle/blob/master/examples/spring-boot-angular/webapp/package-lock.json
+  detection_source: examples/spring-boot-angular/webapp/package.json
+  last_updated_by: Benoit Sautel
+  last_updated_on: 2021-02-05 09:09:04.000000000 Z
